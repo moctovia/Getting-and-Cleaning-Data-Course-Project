@@ -1,11 +1,9 @@
 Data Dictionary of final.txt
 ==============================
 
-subjectNo - The unique identifier assigned to each of the 30 volunteers that participate in the experiment.
-	    values: 1 to 30 
+subjectNo - The unique identifier assigned to each of the 30 volunteers that participate in the experiment. Values: 1 to 30 
 
-activityLabel - Six activities that each volunteer performs 
-	    	values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+activityLabel - Six activities that each volunteer performs. Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 
 Feature Selection 
@@ -44,8 +42,7 @@ std(): Standard deviation
 
 
 
-The variables below are selected from the original Samsung data files, and the r_analysis function calculates the average of the original variables for each activity and each subject. 
-Only variables containing mean() and std() are selected.
+The variables below are selected from the original Samsung data files, and the r_analysis function calculates the average of the original variables for each activity and each subject. Only variables containing mean() and std() are selected.
 
 tBodyAcc-mean()-X
 tBodyAcc-mean()-Y
